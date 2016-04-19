@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/npirotte/ci-sandbox.svg?branch=master)](https://travis-ci.org/npirotte/ci-sandbox)
