@@ -1,11 +1,15 @@
 language: node_js
 node_js:
- - "5.1"
+- '5.1'
 deploy:
- skip_cleanup: true
- provider: releases
- api_key: 68dd9cfce67e634cb1839e04b84604cb8227770f
- on:
-   repo: npirotte/ci-sandbox
-   tags: true
-   branch: master
+  skip_cleanup: true
+  provider: releases
+  api_key:
+    secure: RF4MF2NbUKesPsnj1M71xQyVVN03sf3bpDoQFLf+VbF0SiVxVMaly6E9WiMmRgS5oWMtPMkIkfhY8Xy/x3PmNjt1OZHMu0oTvtMyJ3Kn76IUTF/0Svwih+pMTaBDwypNBo39xDWT0OcMaKEpSLSmebpotZnFeb359h5LDyddcxVa+2QxwYPLtRmv0Q4HhZIVXk4CurS+G67ZjIPLZUVLEjn/8asdBO3JEtW1eF/FGb+99Mcwgh4A6OUL95ucKmYBeGPJIhucmFk3NWzr1j0Yid+Nz6noA00vPaBnwYp6UPOv/ijgkXAwwSG1uYG0dIamls2xSEI8ObDAmyPqhefesjX01Bc2aX1mRfO7+rlFhdlbX6Hrqku/MVEVPZG4XxoF/0NTAheuHINlFJTx2rnUZn/9ojanNr7B2o/abEgD/X6cAt3fTdichfCryE7jdWSfVgaSMDp022b7YdNHOVGwQ16OB/6kuVsLckwBRmXstzfxeAjKnnI0nxVveLGRP7svzkXDxtdvsX5hDG72PXjY8R6UXxQzaAia91MIbhgQgGD6slXW9ML6sLbPqWTSyifdFSn93BfCwrI5T3voGMNHoYFegjqge31Msj6S1uypXIfaa8hk/lCWRrq4SN31MNmfBSpKSJuDnZ8ojniuQqlgf6lcGmiWKUpbjNulwmzAVrA=
+  on:
+    repo: npirotte/ci-sandbox
+    tags: true
+    branch: master
+env:
+  global:
+    secure: RF4MF2NbUKesPsnj1M71xQyVVN03sf3bpDoQFLf+VbF0SiVxVMaly6E9WiMmRgS5oWMtPMkIkfhY8Xy/x3PmNjt1OZHMu0oTvtMyJ3Kn76IUTF/0Svwih+pMTaBDwypNBo39xDWT0OcMaKEpSLSmebpotZnFeb359h5LDyddcxVa+2QxwYPLtRmv0Q4HhZIVXk4CurS+G67ZjIPLZUVLEjn/8asdBO3JEtW1eF/FGb+99Mcwgh4A6OUL95ucKmYBeGPJIhucmFk3NWzr1j0Yid+Nz6noA00vPaBnwYp6UPOv/ijgkXAwwSG1uYG0dIamls2xSEI8ObDAmyPqhefesjX01Bc2aX1mRfO7+rlFhdlbX6Hrqku/MVEVPZG4XxoF/0NTAheuHINlFJTx2rnUZn/9ojanNr7B2o/abEgD/X6cAt3fTdichfCryE7jdWSfVgaSMDp022b7YdNHOVGwQ16OB/6kuVsLckwBRmXstzfxeAjKnnI0nxVveLGRP7svzkXDxtdvsX5hDG72PXjY8R6UXxQzaAia91MIbhgQgGD6slXW9ML6sLbPqWTSyifdFSn93BfCwrI5T3voGMNHoYFegjqge31Msj6S1uypXIfaa8hk/lCWRrq4SN31MNmfBSpKSJuDnZ8ojniuQqlgf6lcGmiWKUpbjNulwmzAVrA=
