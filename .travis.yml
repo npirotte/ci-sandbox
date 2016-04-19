@@ -1,3 +1,12 @@
 language: node_js
 node_js:
  - "5.1"
+deploy:
+ skip_cleanup: true
+ provider: releases
+ api_key: 
+  secure: 68dd9cfce67e634cb1839e04b84604cb8227770f
+ on:
+   repo: npirotte/ci-sandbox
+   tags: true
+   branch: master
