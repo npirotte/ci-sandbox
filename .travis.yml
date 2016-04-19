@@ -4,8 +4,7 @@ node_js:
 deploy:
  skip_cleanup: true
  provider: releases
- api_key: 
-  secure: 68dd9cfce67e634cb1839e04b84604cb8227770f
+ api_key: 68dd9cfce67e634cb1839e04b84604cb8227770f
  on:
    repo: npirotte/ci-sandbox
    tags: true
